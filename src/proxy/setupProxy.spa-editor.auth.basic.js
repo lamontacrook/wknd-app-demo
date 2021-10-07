@@ -54,7 +54,7 @@ module.exports = function (app) {
         changeOrigin: true,
         auth: REACT_APP_AUTHORIZATION,
         pathRewrite: pathRewriteToAEM // Rewrite SPA paths being sent to AEM
-      }
+      },
     )
   );
 
@@ -64,7 +64,7 @@ module.exports = function (app) {
   * If this rule is not in place, CORS errors will occur when running the SPA on http://localhost:3000
   */
   app.use((req, res, next) => {
-    res.header("Access-Control-Allow-Origin", REACT_APP_HOST_URI);
+    res.header("Access-Control-Allow-Origin", REACT_APP_HOST_URI); 
     next();
   });
 };

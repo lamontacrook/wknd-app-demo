@@ -1,7 +1,7 @@
 {
   "name": "aem-guides-wknd-pwa",
   "version": "0.1.0",
-  "homepage": "https://lamontacrook.github.io/wknd-app-demo/",
+  "homepage": "https://lamontacrook.github.io/wknd-app-demo",
   "private": true,
   "dependencies": {
     "@adobe/aem-core-components-react-base": "1.1.8",
@@ -38,11 +38,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "build:local": "env-cmd -f .env.development npm run build",
-    "build:production": "env-cmd -f .env.production npm run build",
+    "build:production": "env-cmd -f .env npm run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build:production",
-    "deploy": "gh-pages -d build:production"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

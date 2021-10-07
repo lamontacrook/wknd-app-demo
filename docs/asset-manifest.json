@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/wknd-app-demo/static/css/main.97c7893f.chunk.css",
+    "main.js": "/wknd-app-demo/static/js/main.2bf5c68d.chunk.js",
+    "main.js.map": "/wknd-app-demo/static/js/main.2bf5c68d.chunk.js.map",
+    "runtime-main.js": "/wknd-app-demo/static/js/runtime-main.a5646879.js",
+    "runtime-main.js.map": "/wknd-app-demo/static/js/runtime-main.a5646879.js.map",
+    "static/js/2.b940fb80.chunk.js": "/wknd-app-demo/static/js/2.b940fb80.chunk.js",
+    "static/js/2.b940fb80.chunk.js.map": "/wknd-app-demo/static/js/2.b940fb80.chunk.js.map",
+    "static/js/3.2572a3f8.chunk.js": "/wknd-app-demo/static/js/3.2572a3f8.chunk.js",
+    "static/js/3.2572a3f8.chunk.js.map": "/wknd-app-demo/static/js/3.2572a3f8.chunk.js.map",
+    "index.html": "/wknd-app-demo/index.html",
+    "service-worker.js": "/wknd-app-demo/service-worker.js",
+    "service-worker.js.map": "/wknd-app-demo/service-worker.js.map",
+    "static/css/main.97c7893f.chunk.css.map": "/wknd-app-demo/static/css/main.97c7893f.chunk.css.map",
+    "static/js/2.b940fb80.chunk.js.LICENSE.txt": "/wknd-app-demo/static/js/2.b940fb80.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a5646879.js",
+    "static/js/2.b940fb80.chunk.js",
+    "static/css/main.97c7893f.chunk.css",
+    "static/js/main.2bf5c68d.chunk.js"
+  ]
+}
